@@ -1,0 +1,23 @@
+
+#canvas2 {
+    width: 800px;
+    height: 500px;
+    position: relative;
+
+}
+.conteniar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    background-color: #000;
+}
+.slider{
+    width: 100%;
+    color: #fff;
+}
+p, .title {
+    color: #fff;
+ 
+}
