@@ -11,7 +11,7 @@ class Enamy {
     constructor() {
         this.x = Math.random() * CANVAS_WIDTH
         this.y = Math.random() * CANVAS_HEIGHT
-        this.speed1 = Math.sin(90)
+        // this.speed1 = Math.sin(90)
         this.speed = Math.random() * 4 + 1
         // npc 1
         // this.width = 293
@@ -23,7 +23,7 @@ class Enamy {
     }
     updated() {
         this.x -= this.speed
-        this.y +=  this.speed1 
+        // this.y +=  this.speed1 
         if( this.x +CANVAS_WIDTH<0){this.x =CANVAS_WIDTH
 
         }
